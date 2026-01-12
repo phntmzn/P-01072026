@@ -3,8 +3,8 @@ import re
 
 def create_markdown_files(
     count,
-    output_dir="EVASIVE MALWARE",
-    date_str="01072026",
+    output_dir="markdown_files",
+    date_str="01122026",
     zero_pad=2
 ):
     os.makedirs(output_dir, exist_ok=True)
